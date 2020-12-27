@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for poker game contains sockets for players to connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Bryan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.16",
+    "bufferutil": "^4.0.2",
+    "socket.io": "^3.0.4",
+    "typescript": "^4.1.3",
+    "utf-8-validate": "^5.0.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0"
+  }
+}
